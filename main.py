@@ -89,4 +89,7 @@ def recall_func(message):  # принятие заявки и отправка �
     bot.register_next_step_handler(user_choice, func)
 
 
+
+print()
+print()
 bot.polling()
