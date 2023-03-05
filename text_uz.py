@@ -2,18 +2,18 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardBut
 
 text01 = {
     "actions": "Салом",
-    "management": f"ДЖАСУРР: Далиев",
-    "recall": "Оставь отзыв",
-    "well_done": "Отлично!",
-    "direction": "Выберите направление",
-    "recall_send": "Ваш отзыв отправлен"
+    "management": f"Ректор: Далиев",
+    "recall": "Шарҳ қолдиринг",
+    "well_done": "Ажойиб!",
+    "direction": "Йўналишни танланг",
+    "recall_send": "Сизнинг фикрингиз юборилди"
 }
 
 btn1 = {
-    "btn1": KeyboardButton(text="Информация о руководстве"),
-    "btn2": KeyboardButton(text="Расписание"),
-    "btn3": KeyboardButton(text="Оставить отзыв"),
-    "btn4": KeyboardButton(text="Информация о руководстве"),
+    "btn1": KeyboardButton(text="Қўлланма ҳақида маълумот"),
+    "btn2": KeyboardButton(text="Жадвал"),
+    "btn3": KeyboardButton(text="Шарҳ қолдиринг"),
+    "btn4": KeyboardButton(text="Қўлланма ҳақида маълумот"),
 
 }
 
@@ -28,8 +28,8 @@ inline_btn1 = {
 }
 
 actions1 = {
-    "answer": "Расписание",
-    "answer2": "Информация о руководстве",
-    "answer3": "Оставить отзыв",
+    "answer": "Жадвал",
+    "answer2": "Қўлланма ҳақида маълумот",
+    "answer3": "Шарҳ қолдиринг",
 
 }
