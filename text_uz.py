@@ -1,8 +1,8 @@
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup
 
 text01 = {
-    "actions": "salom",
-    "management": f"Ректор: Далиев",
+    "actions": "Салом",
+    "management": f"ДЖАСУРР: Далиев",
     "recall": "Оставь отзыв",
     "well_done": "Отлично!",
     "direction": "Выберите направление",
