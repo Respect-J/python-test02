@@ -30,16 +30,15 @@ def start(message):
 @bot.message_handler(content_types=['text'])
 def main_func(message):
 
-    if message.text == "Uz":
-        language_down(message)
-
-    elif message.text == "Русс":
+    if message.text == "Uz" or message.text == "Русс":
         language_down(message)
 
 
 @bot.callback_query_handler(func=lambda call: True)
 def direction(call):
-    req = call.data.split(' ')[0]
+    req = int(call.data.split('_')[0])
+    if req == 1:
+        print('asdasd')
 
 
 def language_down(message):  # выбор языка
